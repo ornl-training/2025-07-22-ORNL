@@ -4,7 +4,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "Oak Ridge National Laboratory"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "Bredesen Center, Bldg 5100, Rm 140, Oak Ridge, TN"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "Bldg 5100, Conference Rm 140, Oak Ridge, TN"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "eng"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "36.012009"        # decimal latitude of workshop venue (use https://www.latlong.net/)
@@ -147,7 +147,7 @@ address.
 <p id="where">
   <strong>Where:</strong>
   {{page.address}}.
-  Find building 5100 on March 3rd using the   
+  Find building 5100 using the   
   <a href="https://www.ornl.gov/sites/default/files/05-01785B-main-C.pdf">main campus map</a>.
 </p>
 {% elsif online == "true_public" %}
