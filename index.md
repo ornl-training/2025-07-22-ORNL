@@ -147,14 +147,8 @@ address.
 <p id="where">
   <strong>Where:</strong>
   {{page.address}}.
-  Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latitude}}&mlon={{page.longitude}}&zoom=16">OpenStreetMap</a>
-  or
-  <a href="//maps.google.com/maps?q={{page.latitude}},{{page.longitude}}">Google Maps</a>.
-  {% if page.what3words %}
-    What3Words location:
-    <a href="https://what3words.com/{{page.what3words}}">///{{page.what3words}}</a>.
-  {%endif %}
+  Find building 5100 on March 3rd using the   
+  <a href="https://www.ornl.gov/sites/default/files/05-01785B-main-C.pdf">main campus map</a>.
 </p>
 {% elsif online == "true_public" %}
 <p id="where">
@@ -292,11 +286,12 @@ Edit the text to match who can attend the workshop. For instance:
 - If you are interested in attending this workshop, contact me@example.com
   for more information
 
+{% endcomment %}
+
 <p id="who-can-attend">
     <strong>Who can attend?:</strong>
-    This workshop is only open to ORNL summer interns who have registered through Eventbrite and received a confirmation email.
+    This workshop is reserved for ORNL summer interns who have registered through Eventbrite and received a confirmation email.
 </p>
-{% endcomment %}
 
 <hr/>
 
